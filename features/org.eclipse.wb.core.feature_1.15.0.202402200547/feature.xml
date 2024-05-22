@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.core.feature"
+      label="%featureName"
+      version="1.15.0.202402200547"
+      provider-name="%providerName"
+      plugin="org.eclipse.wb.core">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.wb.os"
+         download-size="14"
+         install-size="21"
+         version="1.9.3.202402012120"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.runtime"
+         download-size="9"
+         install-size="12"
+         version="1.9.3.202402012120"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.core"
+         download-size="1995"
+         install-size="3758"
+         version="1.15.0.202402200547"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.os.linux"
+         os="linux"
+         ws="gtk"
+         download-size="38"
+         install-size="90"
+         version="1.9.600.202402012120"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.os.macosx"
+         os="macosx"
+         download-size="115"
+         install-size="540"
+         version="1.9.400.202402012120"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.os.win32"
+         os="win32"
+         ws="win32"
+         download-size="93"
+         install-size="194"
+         version="1.9.400.202402012120"
+         unpack="false"/>
+
+</feature>
